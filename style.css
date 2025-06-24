@@ -209,7 +209,7 @@ a {
 }
 
 .screenSize {
-  max-width: 1200px;
+  max-width: 1600px;
   /* Device Screen Size */
   margin: auto;
   /* Left and right Center */
@@ -471,7 +471,7 @@ footer {
 /* :::MAIN Code Starts here::: */
 /* smart */
 .smartContainer {
-  max-width: 100%;
+  /* max-width: 100%; */
 }
 
 .smart {
@@ -500,7 +500,8 @@ footer {
 }
 
 .dataBody {
-  background-image: linear-gradient(45deg, #3196ca 0%, #1d5d9a 100%) !important;
+  background-color: #1e5799;
+  /* background-image: linear-gradient(45deg, #3196ca 0%, #1d5d9a 100%) !important; */
   height: 250px;
   border-radius: 3rem;
   margin: 2rem 12rem;
@@ -524,7 +525,7 @@ footer {
 
 /* premium */
 .premiumContainer {
-  max-width: 100%;
+  /* max-width: 100%; */
 }
 
 .moreBody {
@@ -553,7 +554,7 @@ footer {
 
 /* locker */
 .lockerContainer {
-  max-width: 100%;
+  /* max-width: 100%; */
 }
 
 .locker {
@@ -586,7 +587,7 @@ footer {
 }
 
 .demoContainer {
-  max-width: 1200px;
+  /* max-width: 1200px; */
 }
 
 .demoBlock {
@@ -614,7 +615,7 @@ footer {
 
 .freeImageBody {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 0.3fr 0.7fr 1fr;
 }
 
 .freeImageBox img {
@@ -628,6 +629,7 @@ footer {
 .freeBox {
   width: 55rem;
 }
+
 
 .form-container {
   background-color: #fff;
@@ -698,7 +700,8 @@ footer {
   background-color: #004a99;
 }
 
-/* demo */
+*/
+/* demo
 
 /* :::MAIN Code Ends here::: */
 
@@ -853,7 +856,6 @@ footer {
     flex-direction: column;
   }
 
-
   .smartBox h2 {
     font-size: 24px;
     margin-bottom: 10px;
@@ -872,7 +874,6 @@ footer {
   }
 
   .dataBody {
-    /* height: 100%; */
     border-radius: 2rem;
     margin: 0px 30px 70px 30px;
     width: auto;
@@ -882,7 +883,6 @@ footer {
   }
 
   .dataBlock {
-    /* margin-bottom: 2rem; */
     border-bottom: 2px solid;
     color: #ffffff;
     margin: 2rem 0rem;
@@ -919,10 +919,12 @@ footer {
     max-width: 100%;
     height: 349.14px;
   }
-.moreSafeBlock {
-  text-align: left;
-  padding: 0px 0px 0px 20px;
-}
+
+  .moreSafeBlock {
+    text-align: left;
+    padding: 0px 0px 0px 20px;
+  }
+
   .premium h3 {
     font-size: 24.50px;
   }
@@ -940,14 +942,23 @@ footer {
     font-size: 30.64px;
   }
 
-  .freeBlock {
-    display: flex;
-    align-items: center;
+
+  .freeImageBody {
+    display: grid;
+    grid-template-columns: 1fr;
   }
 
-  .freeBlock img {
+  .freeBox img {
     width: auto;
     height: 508px;
+    padding: 50px;
+  }
+
+  .ghanz  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 0px 0px 50px 20px; */
   }
 
   .contacts {
